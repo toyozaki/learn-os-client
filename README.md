@@ -5,5 +5,9 @@
 ```bash
 $ poetry install
 $ pre-commit install
-$ poetry shell
+
+$ docker compose up -d
+$ ./index-movies.sh
+
+$ docker cp opensearch-node1:/usr/share/opensearch/config/root-ca.pem .
 ```
