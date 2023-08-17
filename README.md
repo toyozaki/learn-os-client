@@ -1,4 +1,4 @@
-# python-template
+# learn-os-client
 
 ## Usage
 

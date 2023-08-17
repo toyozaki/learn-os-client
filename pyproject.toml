@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "python-template"
+name = "learn-os-client"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+opensearch-py = "^2.3.0"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.960"
